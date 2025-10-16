@@ -361,3 +361,26 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Ignorar DLLs y otros archivos binarios
+*.dll
+*.exe
+*.lib
+*.pdb
+*.obj
+*.ilk
+*.exp
+
+# Carpetas generadas por C++ (compilación)
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+out/
+
+# Archivos de configuración de Visual Studio
+*.user
+*.suo
+*.vcxproj.user
